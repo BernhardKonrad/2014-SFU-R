@@ -7,7 +7,7 @@ y <- a + b * x + rnorm(40, sd = sigSq)
 
 avgX <- mean(x)
 write(avgX, "avgX.txt")
-
+ 
 plot(x,y)
 abline(a, b, col="red")
 dev.print(pdf, "toylinePlot.pdf")
