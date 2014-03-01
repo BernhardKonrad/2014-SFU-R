@@ -6,9 +6,9 @@ x <- runif(40)
 y <- a + b * x + rnorm(40, sd = sigSq)
 
 avgX <- mean(x)
-write(avgX, "avgX.txt")
+write(avgX, "scraps/avgX.txt")
  
 plot(x,y)
 abline(a, b, col="red")
-dev.print(pdf, "toylinePlot.pdf")
+dev.print(pdf, "results/toylinePlot.pdf")
  
