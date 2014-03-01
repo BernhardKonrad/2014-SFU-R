@@ -1,6 +1,6 @@
 rm(list=ls())
-a <- 5
-b <- -11
+a <- 15
+b <- -12
 sigSq <- 0.5
 x <- runif(40)
 y <- a + b * x + rnorm(40, sd = sigSq)
